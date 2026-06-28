@@ -3,26 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon site avec GIT</title>
+    <title>Mon premier site</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Bienvenue sur mon site</h1>
-    <p>Ceci est ma première page créée avec Git et GitHub.</p>
-    <h1>Mes projets</h1>
-    <p>Voici une liste de mes projets :</p>
-    <ul>   
-        <li>Projet 1 : Site web personnel</li>
-        <li>Projet 2 : Application mobile</li>
-        <li>Projet 3 : API RESTful</li>
-    </ul>
-    <h1>Suivre les modifications avec GIT</h1>
-    <ol>
-        <li>modifier le fichier</li>
-        <li>Vérifier les modifications avec <code>git status</code></li>
-        <li>Ajouter les changements avec <code>git add</code></li>
-        <li>Faire un commit avec un message clair <code>git commit -m "message"</code></li>
-        <li>Pousser les changements vers GitHub avec <code>git push</code></li>
-    </ol>
+
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="accueil">
+        <h1>Bienvenue sur mon site</h1>
+        <p>Ceci est ma première page créée avec Git et GitHub.</p>
+    </section>
+
+    <section id="apropos">
+        <h2>À propos</h2>
+        <p>Je m'appelle [ton prénom]. Je suis en train d'apprendre le développement web et Git.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Tu peux me contacter à : <a href="mailto:ton@email.com">ton@email.com</a></p>
+    </section>
+
 </body>
 </html>
