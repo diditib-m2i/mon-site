@@ -1,0 +1,12 @@
+# Fichiers système Windows
+Thumbs.db
+desktop.ini
+
+# Dossier VS Code
+.vscode/
+
+# Fichiers système Mac (si tu travailles un jour sur Mac)
+.DS_Store
+
+# Logs
+*.log
